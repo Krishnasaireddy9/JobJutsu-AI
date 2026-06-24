@@ -1,0 +1,5 @@
+.env
+**pycache**/
+data/resume.pdf
+data/jd.txt
+*.pyc

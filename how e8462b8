@@ -1,0 +1,16 @@
+[33mcommit a1a684f1ff3feabd9b4160528c4efd2efddc6187[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Krishnasaireddy9 <krishnasai2004reddy@gmail.com>
+Date:   Wed Jun 24 11:59:11 2026 +0530
+
+    Gemini migration and UI redesign
+
+ .gitignore               |   10 [32m+[m[31m-[m
+ README.md                |    8 [32m+[m[31m-[m
+ app.py                   | 1070 [32m++++++++++++++++++++++++++++++++++[m[31m------------[m
+ llm.py                   |    8 [32m+[m[31m-[m
+ requirements.txt         |  Bin [31m104[m -> [32m114[m bytes
+ router_llm.py            |   22 [32m+[m[31m-[m
+ screenshots/features.png |  Bin [31m126723[m -> [32m190998[m bytes
+ screenshots/homepage.png |  Bin [31m291320[m -> [32m337308[m bytes
+ screenshots/results.png  |  Bin [31m171037[m -> [32m244260[m bytes
+ 9 files changed, 808 insertions(+), 310 deletions(-)
