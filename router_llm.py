@@ -4,8 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-client = genai.Client()
-
+client = genai.Client(
+    api_key=os.getenv("GEMINI_API_KEY")
+)
+ 
 def choose_tool(user_input):
     prompt = f"""
 You are a routing agent.
